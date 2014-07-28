@@ -8,6 +8,7 @@ body {
     background-size: cover;
     overflow: ;
     font-family: 'Raleway', sans-serif;
+    overflow-y: hidden;  /* use media queries to make it scrolabel on smaller height */
 }
 
 .ticket {
@@ -18,7 +19,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 70px;
-	background-color: rgba(249,249,249,0.82);
+	background-color: rgba(249,249,249,0.79);
 	border-radius: 7px;
 	box-shadow: 0px 4px 7px #202020;
 }
@@ -35,8 +36,26 @@ body {
 	width: 25%;
 	max-width: 100px;
 	height: 69%;
-	border-left: 1px solid #919191;
+	border-left: 1px solid #9f9f9f;
 	margin-top: 15px;
+}
+
+.option {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20px;
+	min-height: 45px;
+	padding-top: 5px;
+	background-color: #bdbdbd;
+	border-radius: 5px;
+	color: #000;
+	text-align: center;
+	font-size: 10.5pt;
+	font-weight: 600;
+}
+
+.option:hover{
+	cursor:pointer;
 }
 
 h1 {
@@ -190,6 +209,10 @@ h5 {
 	float: left;
 }
 
+.firstbtn {
+	line-height: 3pt;
+}
+
 .btn:hover {
 	cursor:pointer;
 	background-color: #f86a38;
@@ -259,5 +282,43 @@ h5 {
 	.social{
 		width: 230px;
 	}
+
+	.ticket {
+		padding-bottom: 50px;
+	}
+
+	.btns {
+		margin-top: 450px;
+	}
+
+	.btn {
+		float: none;
+		margin-bottom: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.firstbtn {
+		margin-top: 3px;
+		line-height: 17pt;
+	}
+
+	.firstbtn > p {
+		margin-bottom: 10px;
+	}
+
+	body{
+		overflow-y:scroll;
+	}
+
+	.option {
+	width: 90%;
+	margin-left: 10%;
+	}
+
+	.category {
+		font-weight: 600;
+	}
+
 }
 
