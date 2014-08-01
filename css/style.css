@@ -277,21 +277,29 @@ h5 {
 
 	.flight {
 		width: 235px;
+		margin-left: 20px;
+	}
+
+	.seat {
+		margin-top: 150px;
 	}
 
 	.social{
 		width: 230px;
 	}
 
+
 	.ticket {
-		padding-bottom: 50px;
+		padding-bottom: 170px;
 	}
 
 	.btns {
-		margin-top: 450px;
+		width: 100%;
+		margin-top: 470px;
 	}
 
 	.btn {
+
 		float: none;
 		margin-bottom: 30px;
 		margin-left: auto;
